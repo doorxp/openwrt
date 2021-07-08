@@ -69,10 +69,6 @@
 	};
 };
 
-&gpio0 {
-	status = "okay";
-};
-
 &gpio1 {
 	status = "okay";
 };
@@ -173,10 +169,6 @@
 
 &ethernet {
 	mtd-mac-address = <&factory 0x4>;
-};
-
-&gsw {
-	ralink,port4 = "ephy";
 };
 
 &wmac {

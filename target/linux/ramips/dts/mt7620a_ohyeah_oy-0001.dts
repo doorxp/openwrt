@@ -43,10 +43,6 @@
 	};
 };
 
-&gpio2 {
-	status = "okay";
-};
-
 &gpio3 {
 	status = "okay";
 };
@@ -105,10 +101,6 @@
 	mtd-mac-address = <&factory 0x28>;
 
 	mediatek,portmap = "llllw";
-};
-
-&gsw {
-	mediatek,port4 = "ephy";
 };
 
 &wmac {

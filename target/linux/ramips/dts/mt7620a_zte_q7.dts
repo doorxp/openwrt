@@ -39,10 +39,6 @@
 	};
 };
 
-&gpio0 {
-	status = "okay";
-};
-
 &gpio1 {
 	status = "okay";
 };
@@ -114,8 +110,4 @@
 
 &ohci {
 	status = "okay";
-};
-
-&gsw {
-	mediatek,port4 = "ephy";
 };

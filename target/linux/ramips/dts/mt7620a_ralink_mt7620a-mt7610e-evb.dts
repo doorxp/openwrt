@@ -24,10 +24,6 @@
 	};
 };
 
-&gpio0 {
-	status = "okay";
-};
-
 &spi0 {
 	status = "okay";
 
@@ -73,10 +69,6 @@
 	pinctrl-0 = <&ephy_pins>;
 
 	mediatek,portmap = "llllw";
-};
-
-&gsw {
-	mediatek,port4 = "ephy";
 };
 
 &sdhci {

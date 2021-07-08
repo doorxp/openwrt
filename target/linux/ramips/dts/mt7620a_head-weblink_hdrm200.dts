@@ -96,10 +96,6 @@
 	};
 };
 
-&gpio0 {
-	status = "okay";
-};
-
 &gpio1 {
 	status = "okay";
 };
@@ -151,6 +147,11 @@
 			phy-mode = "rgmii";
 		};
 	};
+};
+
+&gsw {
+	mediatek,port4-gmac;
+	mediatek,ephy-base = /bits/ 8 <8>;
 };
 
 &wmac {

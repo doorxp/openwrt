@@ -59,10 +59,6 @@
 	status = "okay";
 };
 
-&gpio0 {
-	status = "okay";
-};
-
 &spi0 {
 	status = "okay";
 
@@ -122,10 +118,6 @@
 		mtd-mac-address-increment = <(2)>;
 		mediatek,mtd-eeprom = <&config 0xe05d>;
 	};
-};
-
-&gsw {
-	mediatek,port4 = "ephy";
 };
 
 &state_default {
